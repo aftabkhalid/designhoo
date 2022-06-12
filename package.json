@@ -1,0 +1,32 @@
+{
+  "name": "designhoo",
+  "version": "1.0.0",
+  "description": "Design agency",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aftabkhalid/designhoo.git"
+  },
+  "author": "Aftab Khalid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aftabkhalid/designhoo/issues"
+  },
+  "homepage": "https://github.com/aftabkhalid/designhoo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.52.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}
