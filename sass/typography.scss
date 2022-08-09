@@ -1,11 +1,46 @@
+@font-face {
+  font-family: 'gorditablack';
+  src: url('../fonts/gordita_black-webfont.woff2') format('woff2'),
+       url('../fonts/gordita_black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gorditabold';
+  src: url('../fonts/gordita_bold-webfont.woff2') format('woff2'),
+       url('../fonts/gordita_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gorditalight';
+  src: url('../fonts/gordita_light-webfont.woff2') format('woff2'),
+       url('../fonts/gordita_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gorditamedium';
+  src: url('../fonts/gordita_medium-webfont.woff2') format('woff2'),
+       url('../fonts/gordita_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gorditaregular';
+  src: url('../fonts/gordita_regular-webfont.woff2') format('woff2'),
+       url('../fonts/gordita_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 h1,
 .h1 {
   font-size: $h1-font-size;
   font-family: $theme-font-family-heading-bold;
   font-weight: 900;
-}
-
-h2 {
-  font-size: 16.666666px
 }

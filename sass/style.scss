@@ -1,0 +1,58 @@
+
+a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  &:hover {
+    color: #FC636B;
+  }
+}
+
+.dh-link {
+  color: #000!important;
+  text-decoration: none;
+  :hover {
+    color: #F48B4D;
+  }
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.list-group-item {
+  background-color: transparent;
+}
+
+.accordion {
+  .accordion-button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 24px 0;
+    &:focus {
+      border-color: transparent;
+      box-shadow: none;
+    }
+    &:not(.collapsed) {
+      color: #000;
+      background-color: transparent;
+    }
+  }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .accordion-body {
+    padding: 16px 0;
+  }
+}
+
+.top-menu {
+  .nav-link {
+    color: rgba($black, .6);
+    &.active {
+      font-weight: 600;
+      color: $black;
+    }
+  }
+}
