@@ -18,7 +18,7 @@
   "homepage": "https://github.com/aftabkhalid/designhoo#readme",
   "devDependencies": {
     "browser-sync": "^2.27.10",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-cssnano": "^2.1.3",
     "gulp-postcss": "^9.0.1",
